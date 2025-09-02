@@ -473,6 +473,13 @@
             color: var(--primary-blue);
             font-weight: 600;
         }
+
+        .card{
+            background:var(--card);
+            border:1px solid #e2e8f0;
+            border-radius:1rem;
+            padding:1rem
+        }
         
         /* Footer */
         footer {
@@ -819,7 +826,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="map-container">
+                <!--<div class="map-container">
                     <div>
                         <iframe
                           class="map"
@@ -830,6 +837,16 @@
                         <p>4th Floor Lakeview Terrace, Penny Lane</p>
                         <p>Richards Bay Central, 3900</p>
                     </div>
+                </div>-->
+                <div class="card">
+                  <iframe
+                    class="map"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=Lakeview%20Terrace%2C%20Penny%20Ln%2C%20Richards%20Bay%20Central%203900&output=embed">
+                  </iframe>
+                  <p class="small">Find us at 4th Floor Lakeview Terrace, Penny Ln, Richards Bay Central, 3900.</p>
+                  <p class="small"><strong>Hours</strong><br>Online Sessions: Mon–Fri 16:00–20:00<br>Face‑to‑Face: Sat & Holidays 08:00–16:00<br>Sunday: Closed</p>
                 </div>
             </div>
         </div>
